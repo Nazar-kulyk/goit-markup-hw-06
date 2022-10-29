@@ -503,7 +503,7 @@ img {
   fill: #2196f3;
 }
 .cust-ico {
-  width: 160px;
+  width: 106px;
   height: 60px;
 }
 /*--------- modal --------- */
@@ -562,6 +562,7 @@ img {
   width: 1200px;
   padding: 0px 15px;
   margin: 0 auto;
+  align-items: baseline;
 }
 .contact-inf-ft {
   margin-right: 70px;
@@ -628,16 +629,15 @@ img {
   color: var(--contact-focus);
 }
 /*--------- join --------- */
-.join {
-  margin-top: 12px;
-}
 .p-join {
   font-size: 14px;
   line-height: calc(16 / 14);
-  letter-spacing: 3%;
+  font-weight: 700;
+  letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 20px;
   text-transform: uppercase;
+  
 }
 /* ------------join svg---------- */
 .ft-social-svg {
