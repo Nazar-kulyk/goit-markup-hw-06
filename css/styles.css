@@ -578,6 +578,7 @@ img {
   margin-bottom: 4px;
 }
 .modal-form-input {
+  position: relative;
   width: 100%;
   height: 40px;
   font-weight: 400;
@@ -587,8 +588,17 @@ img {
   margin-bottom: 10px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding: 11px;
+
   color: #757575;
+}
+.modal-ico-form {
+}
+.modal-svg-ico {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
 }
 .modal-form-txta {
   resize: none;
@@ -614,17 +624,20 @@ img {
   display: none;
   width: 16px;
   height: 15px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
-  color: #757575;
+
   margin-right: 9px;
 
   background-color: #212121;
 }
 .modal-form-a {
   color: #2196f3;
+}
+.I-agree {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 .modal-form-btn {
   display: flex;
@@ -749,6 +762,10 @@ img {
   padding: 16px;
   width: 358px;
   height: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
   border-radius: 4px;
