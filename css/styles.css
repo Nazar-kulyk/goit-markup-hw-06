@@ -848,17 +848,16 @@ img {
 .svg-form-btn {
   width: 24px;
   height: 24px;
-}
-.form-ft-svg-p {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  color: #ffffff;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 .spn-form-ft {
   display: flex;
   align-items: center;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: #ffffff;
 }
 
 /* ------------join svg---------- */
